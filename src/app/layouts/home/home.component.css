@@ -1,0 +1,89 @@
+.contact-b{
+	text-align: center;
+}
+.btn-outline-info {
+    color: #00bcd4;
+    border-color: #00bcd4;
+    border: 2px solid;
+    border-radius: 20px;
+    font-weight: 700;
+    padding: 8px 16px;
+    margin-top: 15px;
+}
+.btn-outline-info:hover{
+    color: #fff;
+}
+.app-dev{
+	margin-bottom: 30px;
+}
+.row{
+	margin: 0px;
+}
+.app-text{
+	padding: 35px 56px;
+}
+.app-text p{
+	color: #8a959e;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 500;
+    font-family:"Abril Fatface", sans-serif;
+  background: linear-gradient(to right, crimson,pink,springgreen);
+  background-size: 200% 200%;
+  animation: rainbow 2s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip:text;
+}
+.app-text p:hover{
+    color:rgba(0,0,0,0);
+}
+.app{
+    text-align: center;
+}
+.gradient-text{
+    font-family:"Abril Fatface", sans-serif;
+    background: linear-gradient(to right, #ed2514,#080808,#aefdd5);
+    background-size: 200% 200%;
+    animation: rainbow 2s ease-in-out infinite;
+    background-clip: text;
+    -webkit-background-clip:text;
+    color:rgba(0,0,0,1);
+    font-size:25px;
+    display:block;
+    transition: color .2s ease-in-out;
+    font-weight:700;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    line-height: 46px;
+    font-weight: 600;
+    color: #252b33;
+    margin-bottom: 22px;
+  }
+.gradient-text:hover{
+    color:rgba(0,0,0,0);
+}
+.show{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .gradient-text{
+        font-size: 7vw;
+    }
+    .app-text p{
+        font-size: 15px;
+        line-height: unset;
+    }
+    .app-text{
+        padding: 0;
+    }
+    .app img{
+        width: 100%;
+        
+    }
+    .show{
+        display: block;
+    }
+    .display{
+        display: none;
+    }
+  }
