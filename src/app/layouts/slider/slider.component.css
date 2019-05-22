@@ -1,0 +1,9 @@
+.first-look{
+  background-image: url('../../../assets/images/banner222.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.slider-content{
+  padding: 20% 14%;
+  color: #fff;
+}

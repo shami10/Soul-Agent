@@ -1,0 +1,73 @@
+.mr-auto, .mx-auto {
+    margin: 0px auto;
+    padding-top: 3px;
+}
+.navbar{
+    box-shadow: 0 0 3px 1px #f5f5f5 !important;
+    background: #ffff;
+    min-height: 80px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #00bcd4;
+    border-color: #00bcd4;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    height: 52px;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 18px;
+    color: #252b33;
+    font-weight: 600;
+    transition: all .3s ease-in-out;
+    position: relative;
+    padding: 12px 20px;
+    font-family: sans-serif;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #00bcd4;
+}
+.cool-link {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #00bcd4;
+    transition: width .3s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    /* transition: width .3s; */
+}
+.fab {
+    font-family: "Font Awesome 5 Brands";
+    font-size: 28px;
+    padding: 3px;
+    color: #00bcd4;
+}
+.fa-google-plus-square{
+    color: #e34b40;
+}
+.fa-linkedin{
+    color: #0077b5;
+}
+.fa-skype{
+    color: #00aff0;
+}
+.fa-facebook{
+    color: #3b579d;
+}
+.fa-envelope{
+    color: #f14336;
+    font-size: 28px;
+    padding: 3px;
+}
