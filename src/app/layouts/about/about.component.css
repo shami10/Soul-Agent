@@ -1,0 +1,66 @@
+.about-us-img{
+    background-image: url('../../../assets/images/xabout-us-banner-top.jpg.pagespeed.ic.rMjtq0TvF6.webp');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 19% 0;
+    text-align: center;
+}
+.about-us-img h1 {
+    font-size: 3.5vw;
+    font-weight: 700;
+    letter-spacing: -3px;
+    margin-top: 40px
+}
+.about-us-info {
+    text-align: center;
+    padding: 0 5.5%;
+}
+.about-us-info h3 {
+    font-size: 40px;
+    line-height: 3;
+    font-weight: 400;
+}
+.about-us-info p {
+    font-size: 19px;
+    color: black;
+    margin-bottom: 35px;
+    font-weight: 500;
+}
+.row{
+    margin: 0;
+}
+.about-info{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.about-info img {
+    border: 25px solid #f2f2f2;
+    border-radius: 210px;
+}
+.about-content{
+    margin-top: 30px;
+}
+.about-content p {
+    font-size: 19px;
+    padding: 0 42px 0 0;
+    font-weight: 500;
+    color: #585e67;
+}
+.center{
+    text-align: center;
+}
+.techplans-ceo {
+    text-align: center;
+    padding: 0 7%;
+}
+.techplans-ceo h3 {
+    color: #00bcd4;
+    line-height: 1;
+}
+.techplans-ceo h2 {
+    margin-bottom: 39px;
+}
+.techplans-ceo h6 {
+    font-size: 17px;
+    color: #c1c0c0;
+}

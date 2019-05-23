@@ -7,6 +7,11 @@ import { HeaderComponent } from './layouts/header/header.component';
 import { SliderComponent } from './layouts/slider/slider.component';
 import { FooterComponent } from './layouts/footer/footer.component';
 import { HomeComponent } from './layouts/home/home.component';
+import { AboutComponent } from './layouts/about/about.component';
+import { WhatWeDoComponent } from './layouts/what-we-do/what-we-do.component';
+import { WeWorkComponent } from './layouts/we-work/we-work.component';
+import { CareerComponent } from './layouts/career/career.component';
+import { OurWorkComponent } from './layouts/our-work/our-work.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +19,12 @@ import { HomeComponent } from './layouts/home/home.component';
     HeaderComponent,
     SliderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    AboutComponent,
+    WhatWeDoComponent,
+    WeWorkComponent,
+    CareerComponent,
+    OurWorkComponent
   ],
   imports: [
     BrowserModule,

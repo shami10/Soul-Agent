@@ -1,9 +1,13 @@
-.first-look{
-  background-image: url('../../../assets/images/banner222.jpg');
-  background-size: 100%;
-  background-repeat: no-repeat;
+.row{
+  margin: 0;
 }
-.slider-content{
-  padding: 20% 14%;
-  color: #fff;
+.services{
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.services a{
+  color: #252b33;
+  text-decoration: none;
 }

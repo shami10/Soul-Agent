@@ -1,25 +1,25 @@
-<nav class="navbar navbar-expand-lg navbar-light ">
-  <a class="navbar-brand ml-3" href="#"><img src="../../../assets/images/logo.svg"></a>
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light ">
+  <a class="navbar-brand ml-3" routerLink="/"><img src="../../../assets/images/logo.svg"></a>
   <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav mr-auto" routerLinkActive>
       <li class="nav-item cool-link">
-        <a class="nav-link " href="#">About Us <span class="sr-only">(current)</span></a>
+        <a class="nav-link " routerLink="/about">About Us <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item cool-link">
-        <a class="nav-link" href="#">What We Do</a>
+        <a class="nav-link" routerLink="/what-we-do">What We Do</a>
       </li>
       <li class="nav-item cool-link">
-        <a class="nav-link" href="#">We Work With</a>
+        <a class="nav-link" routerLink="we-work-with">We Work With</a>
       </li>
       <li class="nav-item cool-link">
-        <a class="nav-link" href="#">Our Work</a>
+        <a class="nav-link" routerLink="our-work">Our Work</a>
       </li>
       <li class="nav-item cool-link">
-        <a class="nav-link" href="#">Career</a>
+        <a class="nav-link" routerLink="career">Career</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -41,4 +41,15 @@
   </div>
 </nav>
 <!-- <app-slider></app-slider> -->
-<app-home></app-home>
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
