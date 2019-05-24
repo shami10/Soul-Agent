@@ -62,5 +62,66 @@
 }
 .techplans-ceo h6 {
     font-size: 17px;
-    color: #c1c0c0;
+    color: #908d8d;
+}
+.join-team{
+    background-image: url('../../../assets/images/our-team.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 20% 0;
+    text-align: center;
+    color: white;
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+.join-team p {
+    font-size: 21px;
+    font-weight: 500;
+}
+.join-team h2 {
+    font-size: 42px;
+}
+.btn-outline-primary {
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+@media only screen and (max-width: 600px) {
+    .about-info img{
+        width: 100%;
+    }
+    .about-us-info h3{
+        font-size: 10vw;
+    }
+    .about-us-info p{
+        font-size: 16px;
+    }
+    .about-us-img h1{
+        letter-spacing: unset;
+        font-size: 4.5vw;
+    }
+    .about-content p{
+        font-size: 14px;
+        padding: unset;
+    }
+    .techplans-ceo h2{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .join-team h2{
+        font-size: 20px;
+    }
+    .join-team p{
+        font-size: 13px;
+    }
+    .btn-outline-primary{
+        padding: 5px;
+        font-size: 13px;
+    }
+    .join-team{
+        padding: 10% 0;
+    }
 }
