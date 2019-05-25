@@ -43,7 +43,7 @@
 }
 .technology-icon .fab {
     font-family: "Font Awesome 5 Brands";
-    font-size: 38px;
+    font-size: 34px;
     padding: 4px 10px;
     border: 1px solid;
     margin: 0 5px;
@@ -77,11 +77,28 @@
     color: #007bff;
     border-color: #007bff;
     border-radius: 25px;
-    font-size: 17px;
+    font-size: 13px;
     font-weight: 500;
+    padding: 8px 16px;
 }
 .btn-outline-primary:hover{
     color: #fff;
+}
+.apple-icon .apple-text{
+    visibility: hidden;
+    color: black;
+    position: absolute;
+    
+}
+.apple-icon:hover .apple-text{
+    visibility: visible;
+    margin-top: -30px;
+    margin-left: 4px;
+    border: 1px solid;
+    padding: 0px 6px;
+    font-size: 13px;
+    border-radius: 5px;
+    box-shadow: 0 0 1px black;
 }
 .web-content{
     background-image: url('../../../assets/images/web-development-service-banner.jpg');
@@ -113,7 +130,7 @@
 }
 .web-content .technology-icon .fab {
     font-family: "Font Awesome 5 Brands";
-    font-size: 38px;
+    font-size: 34px;
     padding: 4px 10px;
     border: 1px solid #fff;
     margin: 0 5px;
@@ -144,10 +161,28 @@
     color: #fff;
     border-color: #fff;
     border-radius: 25px;
-    font-size: 17px;
+    font-size: 13px;
     font-weight: 500;
+    padding: 8px 16px;
 }
 .web-content .btn-outline-primary:hover{
-    color: #fff;
+    color: black;
+    background: #fff;
     
+}
+.web-content .apple-icon .apple-text{
+    visibility: hidden;
+    color: #fff;
+    position: absolute;
+    
+}
+.web-content .apple-icon:hover .apple-text{
+    visibility: visible;
+    margin-top: -30px;
+    margin-left: 4px;
+    border: 1px solid;
+    padding: 0px 6px;
+    font-size: 13px;
+    border-radius: 5px;
+    box-shadow: 0 0 1px white;
 }
