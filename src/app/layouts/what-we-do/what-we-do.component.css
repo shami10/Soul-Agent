@@ -99,12 +99,13 @@
     font-size: 13px;
     border-radius: 5px;
     box-shadow: 0 0 1px black;
+    /* transition: 0.2s; */
 }
 .web-content{
     background-image: url('../../../assets/images/web-development-service-banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 8% 0 3.5%;
+    padding: 8% 0 4.2%;
     width: 100%;
     height: 100%;
     transform: scale(1.2);
@@ -130,12 +131,12 @@
 }
 .web-content .technology-icon .fab {
     font-family: "Font Awesome 5 Brands";
-    font-size: 34px;
+    font-size: 24px;
     padding: 4px 10px;
     border: 1px solid #fff;
-    margin: 0 5px;
+    margin: 4px 5px;
     border-radius: 4px;
-    color: #5d5c5f;
+    color: #e0dee2;
 }
 .web-content .technology-icon .fab:hover{
     opacity: 1;
@@ -152,7 +153,7 @@
     line-height: 2.5;
 }
 .web-content .technology-list li::before {
-    content: url('../../../assets/images/grey-bullet.png');
+    content: url('../../../assets/images/white-bullet-icon.png');
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 0% 3%;
@@ -185,4 +186,53 @@
     font-size: 13px;
     border-radius: 5px;
     box-shadow: 0 0 1px white;
+    /* transition: 0.2s; */
+}
+.ui-content{
+    background-image: url('../../../assets/images/banner-design.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8% 0 3.5%;
+    width: 100%;
+    height: 100%;
+    transform: scale(1.2);
+    margin-top: 10%;
+}
+.contact-form h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact-form {
+    margin-top: 5%;
+}
+.contact-form p{
+    position: absolute;
+    right: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 7px;
+}
+.margin{
+    margin-top: 32px;
+}
+.contact-form span {
+    color: red;
+    font-weight: 500;
+}
+.contact-form form {
+    background: #f1f4f5;
+    padding: 33px;
+    border-radius: 8px;
+}
+.contact-form label {
+    font-size: 16px;
+    font-weight: 500;
+}
+.contact-form textarea {
+    height: 100px;
+}
+.contact-form .btn-primary {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
 }
