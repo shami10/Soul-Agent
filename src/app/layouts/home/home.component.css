@@ -65,6 +65,25 @@
 .show{
     display: none;
 }
+.container.contact-us.text-center.mt-3 h1 {
+    font-size: 50px;
+    line-height: 2.2;
+    color: #383535;
+}
+.container.contact-us.text-center.mt-3 p {
+    font-size: 19px;
+    font-weight: 500;
+    padding: 0 2%;
+    color: #383535;
+}
+.container.contact-us.text-center.mt-3 button {
+    background: #00bcd4;
+    border: #00bcd4;
+    font-size: 20px;
+    border-radius: 28px;
+    padding: 12px 21px;
+    font-weight: 600;
+}
 @media only screen and (max-width: 600px) {
     .gradient-text{
         font-size: 7vw;
