@@ -84,6 +84,10 @@
     padding: 12px 21px;
     font-weight: 600;
 }
+.circle img{
+    border: 19px solid #f2f2f2;
+    border-radius: 278px;
+}
 @media only screen and (max-width: 600px) {
     .gradient-text{
         font-size: 7vw;
@@ -104,5 +108,13 @@
     }
     .display{
         display: none;
+    }
+    .container.contact-us.text-center.mt-3 h1 {
+        font-size: 12vw;
+        line-height: 1.5;
+    }
+    .container.contact-us.text-center.mt-3 p{
+        font-size: 17px;
+        padding: unset;
     }
   }
