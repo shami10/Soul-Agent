@@ -90,6 +90,7 @@
 @media only screen and (max-width: 600px) {
     .navbar{
         padding: 0;
+        min-height: unset;
     }
     .navbar-collapse{
         background: #080808 !important;
@@ -98,5 +99,8 @@
     .navbar-light .navbar-nav .nav-link{
         color: #fff;
         text-align: center;
+    }
+    .navbar .btn-primary{
+        margin-bottom: 10px;
     }
 }

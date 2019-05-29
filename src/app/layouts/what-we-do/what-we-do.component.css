@@ -198,3 +198,70 @@
     transform: scale(1.2);
     margin-top: 10%;
 }
+.show{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .mt-5.what-we-do h1{
+        font-size: 6.5vw;
+        line-height: 1.5;
+    }
+    .what-we-do{
+        padding: 7% 3% 1%;
+    }
+    .mt-5.what-we-do p{
+        font-size: 13px;
+        margin-bottom: 35px;
+        width: unset;
+    }
+    .app-content{
+        background-image: unset;
+        padding: 0 0 6%;
+        transform: unset;
+    }
+    .absolute{
+        left: unset;
+    }
+    .col-md-6.absolute h2{
+        font-size: 7vw;
+        line-height: 2;
+    }
+    .col-md-6.absolute p{
+        width: unset;
+    }
+    .technology-list li{
+        font-size: 3.9vw;
+    }
+    .web-content{
+        background-image: unset;
+        padding: 5% 0 11%;
+        transform: unset;
+        background: #111419;
+        margin-top: unset;
+    }
+    .web-content .absolute{
+        left: unset;
+    }
+    .web-content .col-md-6.absolute h2{
+        font-size: 7vw;
+        line-height: 2;
+    }
+    .web-content .col-md-6.absolute p{
+        width: unset;
+        font-size: 14px;
+    }
+    .web-content .technology-list li{
+        font-size: 3.9vw;
+    }
+    .technology-list {
+        margin: 0;
+    }
+    .ui-content{
+        background-image: unset;
+        padding: unset;
+        transform: unset;
+    }
+    .show{
+        display: block;
+    }
+}
