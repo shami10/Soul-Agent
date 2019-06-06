@@ -20,7 +20,7 @@
     font-weight: 600;
     letter-spacing: -1px;
     height: 52px;
-    padding: 0 30px;
+    padding: 0 15px;
 }
 .navbar-light .navbar-nav .nav-link {
     font-size: 17px;
@@ -80,9 +80,11 @@
     color: #fff;
 }
 .whatsapp {
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 2.6;
     border: 2px solid #67d070;
-    padding: 6px 15px;
+    padding: 0 10px;
     border-radius: 35px;
     color: #fff;
     background: #67d070;

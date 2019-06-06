@@ -98,3 +98,45 @@ i.fab.fa-linkedin {
     background: #040404;
     border-color: #040404;
 }
+@media only screen and (max-width: 600px) {
+    .career-feature h1{
+        font-size: 6vw;
+        font-weight: 700;
+        letter-spacing: 0px;
+        margin-bottom: 7px;
+    }
+    .career-feature p {
+        font-size: 15px;
+        font-weight: 500;
+        padding: 0px 2%;
+        color: #969393;
+        margin-bottom: 16px;
+    }
+    .career-feature{
+        padding: 22% 0 0;
+    }
+    .career-feature h3 {
+        font-size: 21px;
+    }
+    .careers-text h3 {
+        font-size: 8vw;
+        font-weight: 500;
+        line-height: 1.3;
+        margin-top: 23px;
+    }
+    .careers-text p {
+        font-size: 4.6vw;
+        font-weight: 500;
+        padding: 0 4%;
+        margin-bottom: 60px;
+    }
+    .career{
+        padding: 0 2%;
+    }
+    .icons {
+        text-align: center;
+    }
+    .career .btn-outline-info{
+        float: unset;
+    }
+}
