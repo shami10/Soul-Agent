@@ -1,6 +1,9 @@
 .contact-b{
 	text-align: center;
 }
+.circle img{
+    width: 85%;
+}
 .btn-outline-info {
     color: #00bcd4;
     border-color: #00bcd4;

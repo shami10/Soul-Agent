@@ -13,6 +13,7 @@ import { WeWorkComponent } from './layouts/we-work/we-work.component';
 import { CareerComponent } from './layouts/career/career.component';
 import { OurWorkComponent } from './layouts/our-work/our-work.component';
 import { ProjectFormComponent } from './layouts/project-form/project-form.component';
+import { CareerFormComponent } from './layouts/career-form/career-form.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ProjectFormComponent } from './layouts/project-form/project-form.compon
     WeWorkComponent,
     CareerComponent,
     OurWorkComponent,
-    ProjectFormComponent
+    ProjectFormComponent,
+    CareerFormComponent
   ],
   imports: [
     BrowserModule,

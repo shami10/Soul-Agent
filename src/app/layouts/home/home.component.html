@@ -1,11 +1,11 @@
 <img class="mt-5" src="assets/images/slider.jpg" width="100%">
-<div class="app-dev mt-5">
+<div class="app-dev mt-5 circle">
 	<div class="row">
 		<div class="col-md-6">
 			<div class="app-text">
-				<h3 class="gradient-text">Mobile App Development</h3>
+				<h3 class="gradient-text">{{AppHeading}}</h3>
 				<p>
-					Our dedicated mobile app developers love creating apps and it's their passion. As a result, iOS and Android App development has been our forte for years. We help you build apps for your business, consumers and enterprise at a fixed price or can augment your current team for finite period. Thousands of clients have obtained exceptional results while working with our dedicated programmers. So far, we've launched many successful apps for companies with offshore dedicated programmers as well as for agencies when they outsource to us.
+					{{AppText}}
 				</p>
 				<button type="button" class="btn btn-outline-info">VIEW MORE</button>
 			</div>
@@ -13,26 +13,26 @@
 		<div class="col-md-6">
 			<div class="app-img">
 				<div class="app align-center">
-					<img src="assets/images/app.png">
+					<img src="assets/images/mobile new.png" alt="Mobile App Development">
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-<div class="app-dev mt-5">
+<div class="app-dev mt-5 circle">
 	<div class="row">
 		<div class="col-md-6">
 			<div class="app-img display">
 				<div class="app">
-					<img  src="assets/images/web.png">
+					<img  src="assets/images/web new.png" alt="Web Development">
 				</div>
 			</div>
     </div>
 		<div class="col-md-6">
 			<div class="app-text">
-				<h3 class="gradient-text">Web Development</h3>
+				<h3 class="gradient-text">{{WebHeading}}</h3>
 				<p>
-					As they say - "Mobile First", it is impossible to imagine mobile without web. We build robust mobile backend as well as do develop web applications. With programming and web design experience of years, companies hire us for our expertise in PHP, .NET, Java to build CMS, E-commerce and business applications. Our web developers build front-end, back-end and APIs as per the solution to be created OR can engage on dedicated bases to augment your current development team.
+					{{WebText}}
 				</p>
 				<button type="button" class="btn btn-outline-info">VIEW MORE</button>
 			</div>
@@ -41,16 +41,16 @@
 </div>
 <div class="app-img show">
   <div class="app">
-    <img src="assets/images/web.png">
+    <img src="assets/images/web new.png" alt="Web Development">
   </div>
 </div>
-<div class="app-dev mt-5">
+<div class="app-dev mt-5 circle">
 	<div class="row">
 		<div class="col-md-6">
 			<div class="app-text">
-				<h3 class="gradient-text">UI/UX Design Analysis</h3>
+				<h3 class="gradient-text">{{UiHeading}}</h3>
 				<p>
-					Our dedicated mobile app developers love creating apps and it's their passion. As a result, iOS and Android App development has been our forte for years. We help you build apps for your business, consumers and enterprise at a fixed price or can augment your current team for finite period. Thousands of clients have obtained exceptional results while working with our dedicated programmers. So far, we've launched many successful apps for companies with offshore dedicated programmers as well as for agencies when they outsource to us.
+					{{UiText}}
 				</p>
 				<button type="button" class="btn btn-outline-info">VIEW MORE</button>
 			</div>
@@ -58,7 +58,7 @@
 		<div class="col-md-6">
 			<div class="app-img">
 				<div class="app align-center">
-					<img src="../../../assets/images/game.png">
+					<img src="../../../assets/images/ui ux new.png" alt="UI/UX Design Analysis">
 				</div>
 			</div>
 		</div>
@@ -69,15 +69,15 @@
 		<div class="col-md-6">
 			<div class="app-img display">
 				<div class="app">
-					<img  src="../../../assets/images/this-is-us.png">
+					<img  src="../../../assets/images/about new.png" alt="about us">
 				</div>
 			</div>
     </div>
 		<div class="col-md-6">
 			<div class="app-text mt-5">
-				<h3 class="gradient-text">This is us</h3>
+				<h3 class="gradient-text">{{AboutHeading}}</h3>
 				<p>
-					There are a lot of companies that do what we do. They share the same what and how, but our clients work with us for our why and our who. We're IndiaNIC, and you're in the right place.
+					{{AboutText}}
 				</p>
 				<a routerLink="/about"><button type="button" class="btn btn-outline-info">GET TO KNOW US</button></a>
 			</div>
@@ -86,16 +86,16 @@
 </div>
 <div class="app-img show circle">
   <div class="app">
-    <img src="../../../assets/images/this-is-us.png">
+    <img src="../../../assets/images/about new.png" alt="about us">
   </div>
 </div>
 <div class="app-dev mt-5 circle">
 	<div class="row">
 		<div class="col-md-6">
 			<div class="app-text mt-5">
-				<h3 class="gradient-text mt-5">Stuff we did</h3>
+				<h3 class="gradient-text mt-5">{{StuffHeading}}</h3>
 				<p>
-					While we can't show you the iceberg of work that is our process or technology we used, Here's a shiny bits that breach the surface. Here's our portfolio of few of our best mobile, web and game projects.
+					{{StuffText}}
 				</p>
 				<a routerLink="/our-work"><button type="button" class="btn btn-outline-info">OUR WORK</button></a>
 			</div>
@@ -103,18 +103,16 @@
 		<div class="col-md-6">
 			<div class="app-img">
 				<div class="app align-center">
-					<img src="../../../assets/images/banner-stuff-we-did.png">
+					<img src="../../../assets/images/stuff new.png" alt="stuff we did">
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
 <div class="container contact-us text-center mt-3">
-	<h1>Tell us your Idea</h1>
+	<h1>{{IdeaHeading}}</h1>
 	<p>
-		We like fast - the same way the technology market moves. In the time it takes you to say 
-		"I've got a great idea", someone else has already started working on a similar project half the world away.
-		Tell us about your idea, and we're sure we can take to the next level.
+		{{IdeaText}}
 	</p>
 	<a routerLink="/contact-us"><button class="btn btn-primary mt-3">CONTACT US</button></a>
 </div>

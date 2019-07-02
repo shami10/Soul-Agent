@@ -59,7 +59,7 @@
           <label for="selectTopic"><span>*</span>Select A Topic</label>
           <select id="selectTopic" class="form-control" required>
             <option selected>Choose...</option>
-            <option>...</option>
+            <option *ngFor="let T of Topic">{{T}}</option>
           </select>
         </div>
         <div class="form-group">
