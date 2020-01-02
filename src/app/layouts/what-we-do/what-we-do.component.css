@@ -5,11 +5,11 @@
     padding: 12% 3% 15%;
     color: #fff;
 }
-.mt-5.what-we-do h1 {
+.what-we-do h1 {
     font-size: 50px;
     line-height: 3;
 }
-.mt-5.what-we-do p {
+.what-we-do p {
     font-size: 22px;
     width: 66%;
 }
@@ -201,15 +201,15 @@
 .show{
     display: none;
 }
-@media only screen and (max-width: 600px) {
-    .mt-5.what-we-do h1{
+@media only screen and (max-width: 770px) {
+    .what-we-do h1{
         font-size: 6.5vw;
         line-height: 1.5;
     }
     .what-we-do{
         padding: 7% 3% 1%;
     }
-    .mt-5.what-we-do p{
+    .what-we-do p{
         font-size: 13px;
         margin-bottom: 35px;
         width: unset;
@@ -230,7 +230,7 @@
         width: unset;
     }
     .technology-list li{
-        font-size: 3.9vw;
+        font-size: 17px;
     }
     .web-content{
         background-image: unset;
@@ -251,7 +251,7 @@
         font-size: 14px;
     }
     .web-content .technology-list li{
-        font-size: 3.9vw;
+        font-size: 17px;
     }
     .technology-list {
         margin: 0;
@@ -263,5 +263,24 @@
     }
     .show{
         display: block;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .ui-content{
+        transform: scale(1);
+        margin-top: 0%;
+    }
+    .web-content{
+        margin-top: 0%;
+        transform: scale(1);
+    }
+    .absolute {
+        left: 0%;
+    }
+    .app-content{
+        transform: scale(1);
+    }
+    .what-we-do{
+        padding: 12% 3% 8%;
     }
 }

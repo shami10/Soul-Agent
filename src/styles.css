@@ -1,7 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
 html{
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 .row{
     margin: 0;
 }
+body{
+  cursor: url('assets/images/cursor.png'), auto !important;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #2100d4; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

@@ -1,23 +1,267 @@
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One&display=swap");
+.codepen {
+  display: flex;
+  font-size: 60px;
+  align-items: flex-start;
+  color: #000;
+  justify-content: center;
+}
+body{
+    background: #f1f1f1;
+  }
+.bg {
+  position: absolute;
+  left: -25vw;
+  top: -50vw;
+  width: 200vw;
+  height: 150vw;
+  background-image: url('../../../assets/images/index-banner.png');
+  background-size: cover;
+  z-index: -1;
+  -webkit-filter: blur(100px);
+  filter: blur(100px);
+}
+img.hand {
+    width: 23px;
+    position: relative;
+    top: 11px;
+    right: 94px;
+    animation: dragIcon 3.8s cubic-bezier(.57,-.04,.58,1) infinite both;
+}
+.about-us-home-text {
+    background: #F1F4F6;
+    padding: 8%;
+    position: relative;
+}
+.about-us-home-text h1 {
+    font-weight: 800;
+    line-height: 1.1;
+    font-size: 51px;
+}
+.about-us-home-text p {
+    margin-top: 30px;
+    font-size: 20px;
+    width: 65%;
+    color: #6f7071;
+}
+.about-us-home-img img {
+    width: 420px;
+    position: absolute;
+    right: 150px;
+    top: 75px;
+    border-radius: 100%;
+}
+.digital-home-text {
+    background: #F1F4F6;
+    padding: 8%;
+    position: relative;
+}
+.digital-home-text h1 {
+    font-weight: 800;
+    line-height: 1.1;
+    font-size: 51px;
+}
+.digital-home-text p {
+    margin-top: 30px;
+    font-size: 20px;
+    width: 65%;
+    color: #6f7071;
+}
+.digital-home-img img {
+    width: 420px;
+    position: absolute;
+    left: 150px ;
+    top: 75px;
+    border-radius: 100%;
+}
+.portfolio-sec-home {
+    background-image: url('../../../assets/images/clouds.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 5% 5% 8%;
+    margin: 3% 1%;
+}
+.portfolio-sec-home h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+.portfolio-logo img {
+    /* width: 100%; */
+    padding: 0 30px;
+}
+.portfolio-logo {
+    margin-top: 100px;
+}
+.scroll {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  pointer-events: none;
+}
 .contact-b{
 	text-align: center;
 }
-.circle img{
-    width: 85%;
+.main-banner{
+    background: linear-gradient(91deg, #282e36,#81878e, #282e36);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 2% 5% 3% 10%;
+}
+.banner-text{
+    text-align: center;
+}
+.main-banner-text {
+    color: #fff;
+    margin-top: 24%;
+}
+.main-banner-text p {
+    font-size: 19px;
+    margin: 15px 0px 35px;
+}
+.main-banner-text h1 {
+    font-size: 32px;
+} 
+.main-banner-text button {
+    margin-top: 25px;
+    background: #80868d;
+    border: #80868d;
+    font-size: 25px;
+    padding: 10px 25px;
+    font-weight: 500;
+    border-radius: 225px 45px 325px 75px/15px 125px 35px 155px;
+}
+.home-servies-text {
+    text-align: center;
+    padding: 5% 0 0;
+    font-family: sans-serif;
+}
+.home-servies-text h2 {
+    font-size: 45px;
+    margin: 0;
+    font-weight: 800;
+}
+.banner-text img{
+    margin-top: -6px;
+}
+.main-services {
+    padding: 7% 5% 0%;
+}
+.about-us-home-text button {
+    border-radius: 225px 45px 325px 75px/15px 125px 35px 155px;
+    font-size: 22px;
+    padding: 10px 30px;
+    border: 2px solid;
+    margin-top: 37px;
+}
+#clouds{
+    fill: #fff;
+    stroke: #fff;
+    margin-top: -100px;
+}
+.services-text p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #636262;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.services-text h3 {
+    margin-bottom: 28px;
+    font-weight: 400;
+    line-height: 39px;
+}
+.all-services h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    margin-top: 11px;
+}
+.all-services {
+    background: #2ac4ea;
+    color: #fff;
+    padding: 17% 14%;
+    border-radius: 225px 45px 325px 75px/15px 125px 35px 155px;
+    margin-bottom: 70px;;
+}
+.all-services p {
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 28px;
+}
+.services-text {
+    padding-top: 32px;
+}
+.android {
+    background: #ff1053;
+    margin-top: -10px;
+}
+.ios{
+    background: #fbbc05;
+    margin-top: 38px;
+}
+.web{
+    margin-top: -50px;
+}
+.design {
+    background: #3452ff;
+    margin-top: -168px;
+}
+.content {
+    background: #34a853;
+    margin-top: -87px;
+}
+.marketing {
+    background: #2f88d6;
 }
 .btn-outline-info {
     color: #00bcd4;
     border-color: #00bcd4;
     border: 2px solid;
-    border-radius: 20px;
+    border-radius: 225px 45px 325px 75px/15px 125px 35px 155px;
     font-weight: 700;
     padding: 8px 16px;
     margin-top: 15px;
 }
-.btn-outline-info:hover{
+.web-tech {
+    float: right;
+}
+.web-tech li {
+    list-style: none;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 2.5;
+    color: #d2d2d2;
+}
+.web-tech ul {
+    padding: 0;
+    float: right;
+}
+.web-tech h3 {
+    font-size: 22px;
     color: #fff;
 }
-.app-dev{
-	margin-bottom: 30px;
+.app-tech li {
+    list-style: none;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 2.5;
+    color: #d2d2d2;
+}
+.technologies {
+    padding: 75px 0;
+    background: #000;
+}
+.app-tech h3 {
+    font-size: 22px;
+    color: #fff;
+}
+.app-tech ul {
+    padding: 0;
+    float: left;
+}
+.btn-outline-info:hover{
+    color: #fff;
 }
 .row{
 	margin: 0px;
@@ -43,28 +287,6 @@
 .app{
     text-align: center;
 }
-.gradient-text{
-    font-family:"Abril Fatface", sans-serif;
-    background: linear-gradient(to right, #ed2514,#080808,#aefdd5);
-    background-size: 200% 200%;
-    animation: rainbow 2s ease-in-out infinite;
-    background-clip: text;
-    -webkit-background-clip:text;
-    color:rgba(0,0,0,1);
-    font-size:25px;
-    display:block;
-    transition: color .2s ease-in-out;
-    font-weight:700;
-    font-family: 'Poppins', sans-serif;
-    font-size: 32px;
-    line-height: 46px;
-    font-weight: 600;
-    color: #252b33;
-    margin-bottom: 22px;
-  }
-.gradient-text:hover{
-    color:rgba(0,0,0,0);
-}
 .show{
     display: none;
 }
@@ -87,31 +309,7 @@
     padding: 12px 21px;
     font-weight: 600;
 }
-.circle img{
-    border: 19px solid #f2f2f2;
-    border-radius: 278px;
-}
-@media only screen and (max-width: 600px) {
-    .gradient-text{
-        font-size: 7vw;
-    }
-    .app-text p{
-        font-size: 15px;
-        line-height: unset;
-    }
-    .app-text{
-        padding: 0;
-    }
-    .app img{
-        width: 100%;
-        
-    }
-    .show{
-        display: block;
-    }
-    .display{
-        display: none;
-    }
+@media only screen and (max-width: 770px) {
     .container.contact-us.text-center.mt-3 h1 {
         font-size: 12vw;
         line-height: 1.5;
@@ -119,5 +317,96 @@
     .container.contact-us.text-center.mt-3 p{
         font-size: 17px;
         padding: unset;
+    }
+    .about-us-home-img {
+        background: #f1f4f6;
+    }
+    .portfolio-sec-home{
+        background: #f1f4f6;
+        margin: 3% 4%;
+    }
+    .about-us-home-img img{
+        width: 100%;
+        position: relative;
+        left: 0;
+        border-radius: 100%;
+        top: -6px;
+    }
+    .portfolio-logo img{
+        padding: 0 35px 0px 0px;
+    }
+    .portfolio-logo {
+        margin-top: 30px;
+    }
+    .about-us-home-text p{
+        width: 100%;
+    }
+    .banner-text h1 {
+        font-size: 46px;
+        line-height: 1;
+        margin-top: 35px;
+    }
+    span {
+        font-size: 15vw;
+    }
+    .main-banner .banner-img{
+        display: none;
+    }
+    .main-banner{
+        padding: 2% 5% 8% 10%;
+    }
+    .home-servies-text h2{
+        font-size: 29px;
+        line-height: 15px;
+        margin: 0;
+        font-weight: 700;
+        margin-top: 19px;
+    }
+    .services-text h3 {
+        margin-bottom: 28px;
+        font-weight: 500;
+        line-height: 35px;
+        font-size: 21px;
+    }
+    .services-text{
+        padding-top: 0px;
+    }
+    .services-text p{
+        line-height: 1.5;
+    }
+    .main-services{
+        padding: 7% 0% 3%;
+    }
+    .web {
+        margin-top: 24px;
+    }
+    .all-services{
+        margin-bottom: 24px;
+    }
+    .android{
+        margin-top: unset;
+    }
+    .ios{
+        margin-top: unset;
+    }
+    .design{
+        margin-top: unset;
+    }
+    .content{
+        margin-top: unset;
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    .all-services{
+        padding: 17% 7%;
+    }
+    .main-services {
+        padding: 7% 1% 0%;
+    }
+    .about-us-home-img img{
+        right: 57px;
+    }
+    .all-services p {
+        font-size: 15px;
     }
   }

@@ -1,5 +1,31 @@
+<div class="top-header">
+  <div class="row">
+    <div class="col-lg-6 col-md-6">
+      <a href="tel:03027574216">
+        <div class="phone">
+          <i class="fa fa-phone-volume"></i>
+          <span>03027574216</span>
+        </div>
+      </a>
+      <a href="mailto:info@soulagent.org">
+        <div class="phone">
+          <i class="fa fa-envelope-open-text"></i>
+          <span>info@soulagent.org</span>
+        </div>
+      </a>
+    </div>
+    <div class="col-lg-6 col-md-6">
+      <div class="social-icons">
+        <a href=""><i class="fab fa-facebook-square"></i></a>
+        <a href=""><i class="fab fa-twitter-square"></i></a>
+        <a href=""><i class="fab fa-linkedin"></i></a>
+        <a href=""><i class="fab fa-skype"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
 <nav id="navbar" class="navbar navbar-expand-lg navbar-light ">
-  <a class="navbar-brand ml-3" routerLink="/"><img src="../../../assets/images/logo.svg"></a>
+  <a class="navbar-brand" routerLink="/"><img class="logo" src="../../../assets/images/logo.png"></a>
   <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -7,36 +33,23 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto" routerLinkActive>
       <li class="nav-item cool-link">
-        <a class="nav-link " routerLink="/about">About Us <span class="sr-only">(current)</span></a>
+        <a class="nav-link " routerLink="/about">About Us</a>
       </li>
       <li class="nav-item cool-link">
         <a class="nav-link" routerLink="/what-we-do">What We Do</a>
       </li>
       <li class="nav-item cool-link">
-        <a class="nav-link" routerLink="our-work">Our Work</a>
+        <a class="nav-link" routerLink="/our-work">Our Work</a>
       </li>
       <li class="nav-item cool-link">
-        <a class="nav-link" routerLink="career">Career</a>
+        <a class="nav-link" routerLink="/career">Career</a>
       </li>
       <li class="nav-item cool-link">
-        <a class="nav-link" routerLink="contact-us">Contact Us</a>
+        <a class="nav-link" routerLink="/contact-us">Contact Us</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <a routerLink="/contact-us"><button type="button" class="btn btn-primary mr-3">Get Free Estimation <i class="fa fa-arrow-right ml-2"></i></button></a>
-      <button class="btn whatsapp ">0302-7574216 <i class="fab fa-whatsapp"></i></button>
+      <a routerLink="/contact-us"><button type="button" class="btn btn-primary mr-3">Get Free Estimation <img src="../../assets/images/arrow.png"></button></a>
     </form>
   </div>
 </nav>
-<script>
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-50px";
-  }
-  prevScrollpos = currentScrollPos;
-}
-</script>

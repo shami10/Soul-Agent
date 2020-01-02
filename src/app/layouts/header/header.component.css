@@ -1,15 +1,40 @@
 .mr-auto, .mx-auto {
-    padding-top: 3px;
-    margin-left: 10%;
+    margin: 0 auto;
+}
+.top-header {
+    background: #373d44;
+    padding: 3px 18px;
+}
+.phone span {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 9px;
+}
+.phone {
+    width: 220px;
+    float: left;
+}
+.social-icons {
+    float: right;
+}
+.social-icons i {
+    margin-left: 25px;
+    color: #fff;
+    font-size: 22px;
+}
+.social-icons i:hover{
+    color: #00bcd4;
+}
+.logo {
+    width: 254px;
 }
 .navbar{
     box-shadow: 0 0 3px 1px #f5f5f5 !important;
-    background: #ffff;
-    min-height: 80px;
-    position: fixed;
+    background: #F6F6F6;    
+    min-height: 70px;
     width: 100%;
-    z-index: 99999;
-    top: 0;
+    padding: 0 20px;
 }
 .btn-primary {
     color: #fff;
@@ -21,6 +46,7 @@
     letter-spacing: -1px;
     height: 52px;
     padding: 0 15px;
+    border-radius: 225px 45px 325px 75px/15px 125px 35px 155px;
 }
 .navbar-light .navbar-nav .nav-link {
     font-size: 17px;
@@ -78,6 +104,7 @@
 }
 .fa-whatsapp{
     color: #fff;
+    margin-top: -5px;
 }
 .whatsapp {
     font-size: 18px;
@@ -88,14 +115,29 @@
     border-radius: 35px;
     color: #fff;
     background: #67d070;
+    border-radius: 225px 45px 325px 75px/15px 125px 35px 155px;
 }
-@media only screen and (max-width: 600px) {
+.phone i {
+    color: #fff;
+    font-size: 18px;
+}
+@media only screen and (max-width: 770px) {
+    .top-header{
+        text-align: center;
+    }
+    .social-icons {
+        float: unset;
+    }
+    .phone{
+        float: unset;
+        width: unset;
+    }
     .navbar{
         padding: 0;
         min-height: unset;
     }
     .navbar-collapse{
-        background: #080808 !important;
+        background: #373d44 !important;
         padding: 10px;
     }
     .navbar-light .navbar-nav .nav-link{
@@ -103,6 +145,14 @@
         text-align: center;
     }
     .navbar .btn-primary{
-        margin-bottom: 10px;
+        display: none;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+    .btn-primary{
+        font-size: 14px;
     }
 }
